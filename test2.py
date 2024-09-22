@@ -28,4 +28,4 @@ def copy_autorun_files(path):
             shutil.move(path + "/STARTAPP.INF",path + "/OpenFile/")
         os.remove(path + "/STARTAPP.INF")
 
-copy_autorun_files("D:/")
+copy_autorun_files("/")
